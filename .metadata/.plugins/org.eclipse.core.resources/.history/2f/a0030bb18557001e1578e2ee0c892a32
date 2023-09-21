@@ -1,0 +1,11 @@
+package preparationday8;
+
+public class UseStringUpperCase {
+	public static void main(String[] args) {
+
+		StringUpperCase s1 = String::toUpperCase;
+
+		s1.getThis(a);
+
+	}
+}

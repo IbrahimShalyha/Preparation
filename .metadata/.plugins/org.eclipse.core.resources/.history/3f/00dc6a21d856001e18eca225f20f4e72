@@ -1,0 +1,14 @@
+package preparationday7;
+
+public class UseEmployee {
+	public static void main(String[] args) {
+
+		Employee e1 = new Employee(1, "IBRAHIM", 18000, "MALE");
+
+		Employee e2 = new Employee(2, "SHALYHA", 25000, "FEMALE");
+
+		Employee e3 = new Employee(3, "AMAR", 30000, "MALE");
+
+		Employee e4 = new Employee(4, "SELVI", 28000, "FEMALE");
+	}
+}

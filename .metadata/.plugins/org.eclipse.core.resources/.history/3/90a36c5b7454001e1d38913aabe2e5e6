@@ -1,0 +1,5 @@
+package preparationday6;
+
+public class Example extends Thread {
+      
+}

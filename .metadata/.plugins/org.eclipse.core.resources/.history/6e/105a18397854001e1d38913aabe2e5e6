@@ -1,0 +1,25 @@
+package preparationday6;
+
+public class SampleSynchronizedThread implements Runnable {
+	public void run() {
+
+		synchronized (SampleSynchronizedThread.class) {
+			System.out.println("HELLO");
+
+			try {
+				SampleSynchronizedThread.class.wait(5000);
+				System.out.println("THREAD IS AWAITED");
+			} catch (InterruptedException ie) {
+				ie.printStackTrace();
+			}
+		}
+	}
+
+	public static void main(String[] args) throws InterruptedException {
+		SampleSynchronizedThread s = new SampleSynchronizedThread();
+		Thread t = new Thread(s);
+		t.start();
+		Thread.sleep(20000);
+		System.out.println("HI WORLD");
+	}
+}

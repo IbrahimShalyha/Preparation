@@ -1,0 +1,13 @@
+package multilevelinheritance;
+
+public class UseTransportVehicle {
+public static void main(String[]args) {
+	TransportVehicle t1 = new TransportVehicle("TITANIC","BLACK",1000);
+	
+	LargeShip l1 = new LargeShip(3000000,"XTR",t1);
+	
+	BigShip b1 = new BigShip(4000000,"BTR",l1);
+	
+	SmallShip s1 = new SmallShip(2500000,"STR");
+}
+}

@@ -1,0 +1,9 @@
+package preparationday6;
+
+public class StringBuilderAndBuffer {
+	public static void main(String[] args) {
+
+		StringBuilder sb = new StringBuilder("HELLO");
+		sb.reverse();
+	}
+}

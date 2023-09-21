@@ -1,0 +1,6 @@
+package preparationday8;
+
+public interface StringUpperCase {
+
+	public String getThis(int a);
+}

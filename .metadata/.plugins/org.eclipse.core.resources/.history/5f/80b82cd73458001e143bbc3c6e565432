@@ -1,0 +1,12 @@
+package preparationday8;
+
+import java.util.function.Supplier;
+
+public class Task {
+	public static void main(String[] args) {
+
+		Supplier<String> message = () -> "HELLO WORLD";
+		System.out.println(message.get());
+
+	}
+}

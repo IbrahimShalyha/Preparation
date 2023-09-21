@@ -1,0 +1,10 @@
+package preparationday6;
+
+public class StringImmutable {
+	public static void main(String[] args) {
+
+		String a = "HELLO";
+		a.concat("WORLD");
+		System.out.println(a);
+	}
+}

@@ -1,0 +1,7 @@
+package preparationday10;
+
+public class UseCheckPassword {
+   public static void main(String[] args) {
+	   
+   }
+}

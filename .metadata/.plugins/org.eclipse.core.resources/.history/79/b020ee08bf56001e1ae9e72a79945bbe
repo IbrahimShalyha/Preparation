@@ -1,0 +1,19 @@
+package preparationday7;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class SampleMap {
+	public static void main(String[] args) {
+
+		Map<Integer, String> a = new HashMap<>();
+
+		a.put(1, "IBU");
+		a.put(2, "SHA");
+
+		for (Integer b : a.keySet()) {
+			a.put(3, "IBUSHA");
+		}
+		System.out.println(a);
+	}
+}

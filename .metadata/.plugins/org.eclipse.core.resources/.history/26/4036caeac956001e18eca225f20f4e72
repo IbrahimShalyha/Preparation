@@ -1,0 +1,21 @@
+package preparationday7;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class StreamsMethod {
+	public static void main(String[] args) {
+
+		List<Integer> a = new ArrayList<>();
+		a.add(12);
+		a.add(15);
+		a.add(76);
+		a.add(84);
+		a.add(93);
+
+		boolean z = a.stream().anyMatch(x -> (x * (x + 1)) / 7 == 15);
+
+		System.out.println(z);
+
+	}
+}

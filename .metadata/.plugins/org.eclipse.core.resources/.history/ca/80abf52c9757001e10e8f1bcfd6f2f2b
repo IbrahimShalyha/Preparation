@@ -1,0 +1,22 @@
+package preparationday7;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AnyMatch {
+	public static void main(String[] args) {
+
+		List<Integer> a = new ArrayList<>();
+		a.add(3);
+		a.add(4);
+		a.add(6);
+		a.add(12);
+		a.add(20);
+
+		//ANYMATCH
+		boolean z = a.stream().anyMatch(x -> (x * (x + 1)) / 4 == 5);
+		System.out.println(z);
+   
+		
+	}
+}

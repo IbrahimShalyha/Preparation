@@ -1,0 +1,9 @@
+package preparationday6;
+
+abstract public class SampleConstructor {
+	   String a = "HELLO";
+	   String b = "WORLD";
+       public SampleConstructor() {
+    	   System.out.println(a);
+       }
+}

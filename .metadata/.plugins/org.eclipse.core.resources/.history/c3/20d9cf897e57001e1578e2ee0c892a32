@@ -1,0 +1,5 @@
+package preparationday8;
+
+public interface FindNonVowel {
+
+}
